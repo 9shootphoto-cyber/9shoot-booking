@@ -15,16 +15,18 @@ const CREDS_PATH = path.join(
   'telegram.json'
 );
 
-// Chan 嘅 Telegram chat ID（來自 channel-owner.yaml）
+// Chan 嘅 Telegram chat ID（環境變數優先，預設來自 channel-owner.yaml）
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID || '6687684829';
 
 /**
  * 讀取 bot token
+ * 優先用環境變數（部署環境用），本機先 fallback 去 Mavis 憑證
  */
 function getBotToken() {
-  // 優先用環境變數
+  // 部署環境（Render / Railway）用環境變數
   if (process.env.TELEGRAM_BOT_TOKEN) return process.env.TELEGRAM_BOT_TOKEN;
 
+  // 本機開發：讀 Mavis 現有憑證
   try {
     if (fs.existsSync(CREDS_PATH)) {
       const raw = JSON.parse(fs.readFileSync(CREDS_PATH, 'utf8'));
