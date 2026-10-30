@@ -5,7 +5,58 @@
 
 ---
 
-## 快速開始
+## 🌍 線上網址
+
+**https://nineshoot-booking.onrender.com**
+
+（部署平台：Render · Singapore · Free plan · 連結 GitHub repo 自動部署）
+
+### 部署相關指令
+
+```bash
+export PATH="$HOME/bin:$PATH"          # gh / render CLI 喺 ~/bin
+
+# 查看部署狀態
+render deploys list srv-dbi1pd9srm7s73d0k5v0
+
+# 睇日誌
+render logs srv-dbi1pd9srm7s73d0k5v0 --resources web --start 2026-10-30
+
+# 改完 code 後推上去了就自動重新部署
+git push origin main
+
+# 手動觸發部署
+render deploys create srv-dbi1pd9srm7s73d0k5v0 --wait
+```
+
+### 已設定嘅環境變數（Render dashboard）
+
+| 變數 | 用途 |
+|------|------|
+| `TELEGRAM_BOT_TOKEN` | Telegram 通知 |
+| `TELEGRAM_CHAT_ID` | `6687684829`（你的 Telegram） |
+| `NODE_VERSION` | `24.16.0` |
+
+### GitHub repo
+
+`https://github.com/9shootphoto-cyber/9shoot-booking`（public）
+
+> 之所以 public：Render 要裝 GitHub App 先讀到 private repo，會多幾個設定步驟。
+> Repo 內**冇任何敏感資料** — Telegram token、預約記錄、`.env` 全部排除咗。
+> 如要轉返 private，去 dashboard 裝 GitHub App 即可。
+
+### ⚠️ Render Free plan 注意
+
+- 15 分鐘冇人訪問 → service 會休眠
+- 下次有人訪問要等 **約 30-60 秒** 冷啟動先有回應
+- 首次訪問會慢啲，之後就正常
+
+如果你想避免客人遇到「等 loading」，可以升級 paid plan（$7/月），或者遲啲我幫你
+加一個「保持溫醒」嘅 cron（`cron self` 每 10 分鐘 ping 一次）。
+
+---
+
+## 快速開始（本地開發）
 
 ```bash
 cd ~/9shoot-booking
