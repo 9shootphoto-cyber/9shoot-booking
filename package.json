@@ -1,0 +1,19 @@
+{
+  "name": "9shoot-booking-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "九號攝影館預約系統 - 9Shoot Photo Studio booking system",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "auth": "node scripts/google-auth.js",
+    "slots": "node scripts/list-slots.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "dotenv": "^16.4.7"
+  }
+}

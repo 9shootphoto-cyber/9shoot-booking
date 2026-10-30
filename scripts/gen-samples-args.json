@@ -1,0 +1,64 @@
+{
+  "requests": [
+    {
+      "prompt": "Professional ID photo of a young Asian woman in Macau, plain white background, passport photo style, neutral confident expression, soft even studio lighting, sharp focus on face, shoulders up, business attire, photorealistic portrait photography, 85mm lens, high resolution",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-id1.jpg"
+    },
+    {
+      "prompt": "Professional passport ID photo of a middle aged Asian businessman, plain white background, formal suit and tie, neutral expression, even studio lighting, head and shoulders, photorealistic studio portrait, high resolution",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-id2.jpg"
+    },
+    {
+      "prompt": "Editorial studio portrait of a young Asian woman, short bob haircut, wearing elegant black turtleneck, dark moody background, dramatic Rembrandt lighting with rim light, cinematic color grading, shallow depth of field, 85mm lens, photorealistic fashion portrait",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-p1.jpg"
+    },
+    {
+      "prompt": "Cinematic corporate headshot of a confident Asian professional woman in a blazer, warm golden hour window light, soft bokeh office background, natural skin texture, professional photography, photorealistic, high resolution",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-p2.jpg"
+    },
+    {
+      "prompt": "Moody cinematic portrait of a young Asian man in a dark suit, low key lighting with single soft key light, deep shadows, film grain, 35mm film aesthetic, photorealistic editorial photography",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-p3.jpg"
+    },
+    {
+      "prompt": "Warm family portrait of a young Asian couple with their small child, sitting together on a sofa in a bright home, natural window light, genuine joyful laughter, candid lifestyle photography, photorealistic, soft warm tones",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-f1.jpg"
+    },
+    {
+      "prompt": "Multigenerational Asian family portrait, grandparents parents and child standing together outdoors in a Macau park, golden hour backlight, warm atmosphere, professional family photography, photorealistic, natural candid expressions",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-f2.jpg"
+    },
+    {
+      "prompt": "Adorable golden retriever dog portrait in a photography studio, soft grey seamless backdrop, professional pet photography, shallow depth of field, catchlight in eyes, photorealistic, warm friendly mood",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-pt1.jpg"
+    },
+    {
+      "prompt": "Elegant Asian wedding couple holding hands under soft romantic lighting at dusk, cinematic bokeh background, professional wedding photography, photorealistic, warm golden tones, film grain, romantic mood",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-w1.jpg"
+    },
+    {
+      "prompt": "Wedding reception moment, Asian bride in elegant white gown laughing, guests blurred in background, warm candlelight and string lights, cinematic documentary wedding photography, photorealistic, shallow depth of field",
+      "aspect_ratio": "4:3",
+      "resolution": "2K",
+      "output_file": "sample-w2.jpg"
+    }
+  ]
+}

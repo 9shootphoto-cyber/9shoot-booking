@@ -1,0 +1,141 @@
+{
+  "brand": {
+    "name_zh": "九號攝影館",
+    "name_en": "9Shoot Photo Studio",
+    "tagline_zh": "澳門專業攝影 · 證件照 · 形象照 · 家庭紀錄",
+    "tagline_en": "Professional Photography in Macau · ID Photos · Portrait · Family",
+    "address": "澳門田畔街 9 號地下",
+    "address_en": "9 Tap Seac St, Ground Floor, Macau",
+    "phone": "2833 5943",
+    "phone2": "6661 2227",
+    "whatsapp": "85366612227",
+    "email": "9shootphoto@gmail.com",
+    "instagram": "9shoot_photostudio",
+    "facebook": "9shootphotostudio",
+    "hours_zh": "週一至六 14:00–20:00（週日休息）",
+    "hours_en": "Mon–Sat 14:00–20:00 (Closed Sun)"
+  },
+
+  "services": [
+    {
+      "id": "id-photo",
+      "name_zh": "證件照",
+      "name_en": "ID Photo",
+      "duration_min": 15,
+      "price_from": 150,
+      "price_note_zh": "起 · 現場拍攝即取",
+      "price_note_en": "from · instant on-site",
+      "desc_zh": "白底證件照、合照規格，即拍即取。適合 visa、身份證、求職履歷表使用。",
+      "desc_en": "White-background ID photos to spec, shot and printed on the spot. Ideal for visa, ID and résumé use.",
+      "icon": "id",
+      "includes_zh": ["白底 / 藍底可選", "現場即拍即取", "多版本數碼檔"],
+      "includes_en": ["White / blue background", "Shot & printed on site", "Digital copies"]
+    },
+    {
+      "id": "portrait",
+      "name_zh": "形象照",
+      "name_en": "Portrait",
+      "duration_min": 30,
+      "price_from": 500,
+      "price_note_zh": "起 · 棚拍含妝",
+      "price_note_en": "from · studio session with makeup",
+      "desc_zh": "專業棚拍形象照，含妝髮。適合專業個人品牌、求職履歷、社交平台個人檔。",
+      "desc_en": "Professional studio portrait, makeup and hair included. Great for personal branding, résumé and social profiles.",
+      "icon": "portrait",
+      "includes_zh": ["含妝髮", "棚拍燈光設計", "精修 10 張"],
+      "includes_en": ["Makeup & hair", "Studio lighting design", "10 retouched images"]
+    },
+    {
+      "id": "family-pet",
+      "name_zh": "家庭照 / 寵物照",
+      "name_en": "Family & Pet",
+      "duration_min": 60,
+      "price_from": 1200,
+      "price_note_zh": "起 · 1 小時",
+      "price_note_en": "from · 1 hour",
+      "desc_zh": "家庭、寵物、孕婦、畢業等主題拍攝。1 小時專屬時段，可拍多組不同造型。",
+      "desc_en": "Family, pet, maternity and graduation sessions. A dedicated 1-hour slot for multiple looks.",
+      "icon": "family",
+      "includes_zh": ["1 小時專屬時段", "多組造型", "精修 20 張"],
+      "includes_en": ["Dedicated 1-hour slot", "Multiple looks", "20 retouched images"]
+    },
+    {
+      "id": "event",
+      "name_zh": "活動 / 婚禮攝影",
+      "name_en": "Event & Wedding",
+      "duration_min": 240,
+      "price_from": 2500,
+      "price_note_zh": "起 · 4 小時起",
+      "price_note_en": "from · 4 hours minimum",
+      "desc_zh": "婚禮、機構活動、演出等全場攝影。歡迎機構與團體查詢專屬方案。",
+      "desc_en": "Full-event coverage for weddings, corporate functions and performances. Institutional packages welcome.",
+      "icon": "event",
+      "includes_zh": ["全場記錄", "精修交付", "機構方案優惠"],
+      "includes_en": ["Full coverage", "Edited delivery", "Institutional rates"],
+      "custom_booking": true
+    }
+  ],
+
+  "booking_hours": {
+    "timezone": "Asia/Macau",
+    "days": [1, 2, 3, 4, 5, 6],
+    "start": "14:00",
+    "end": "20:00",
+    "slot_minutes": 30,
+    "lead_time_days": 1,
+    "max_advance_days": 60,
+    "off_hours_message_zh": "營業時間以外的預約需求，可直接 inbox 我們，我們會盡快回覆確認。",
+    "off_hours_message_en": "For requests outside opening hours, inbox us directly and we will reply to confirm."
+  },
+
+  "reviews": [
+    {
+      "name_zh": "澳門 · 專業人士",
+      "name_en": "Macau · Professional",
+      "rating": 5,
+      "text_zh": "證件照 15 分鐘搞掂，唔使特登再約，效率超高。相片出嚟好自然，唔係嗰種死板證件相。",
+      "text_en": "ID photos done in 15 minutes without needing another appointment. Super efficient, and the results looked natural — not the usual stiff ID photo.",
+      "tag_zh": "證件照",
+      "tag_en": "ID Photo"
+    },
+    {
+      "name_zh": "澳門 · 上班族",
+      "name_en": "Macau · Office Worker",
+      "rating": 5,
+      "text_zh": "形象照成個過程好舒服，Chan 好有耐性教點樣擺pose。影完出嚟嘅相好有個人樣，唔係千篇一律。",
+      "text_en": "The portrait session felt very relaxed — Chan was patient in explaining poses. The results looked like me, not like a template.",
+      "tag_zh": "形象照",
+      "tag_en": "Portrait"
+    },
+    {
+      "name_zh": "澳門 · 家庭",
+      "name_en": "Macau · Family",
+      "rating": 5,
+      "text_zh": "連我隻貓一齊影，Chan 好有耐性，等貓慢慢習慣鏡頭。最後出嚟張全家福掛咗喺客厅，成屋人都問邊度影。",
+      "text_en": "Chan was patient enough to let our cat warm up to the camera. The family portrait is now framed in our living room and everyone asked where we took it.",
+      "tag_zh": "家庭 / 寵物",
+      "tag_en": "Family & Pet"
+    },
+    {
+      "name_zh": "澳門 · 機構統籌",
+      "name_en": "Macau · Event Coordinator",
+      "rating": 5,
+      "text_zh": "成個活動交咗畀 Chan 拍，佢自己識捉moment，唔使我哋指。交相速度快，溝通清晰。",
+      "text_en": "We left the whole event coverage to Chan and he captured the moments without us having to direct him. Fast delivery and clear communication.",
+      "tag_zh": "活動攝影",
+      "tag_en": "Event"
+    }
+  ],
+
+  "sample_categories": [
+    { "id": "id-photo", "name_zh": "證件照", "name_en": "ID Photo" },
+    { "id": "portrait", "name_zh": "形象照", "name_en": "Portrait" },
+    { "id": "family", "name_zh": "家庭照", "name_en": "Family" },
+    { "id": "pet", "name_zh": "寵物照", "name_en": "Pet" },
+    { "id": "wedding", "name_zh": "婚禮", "name_en": "Wedding" }
+  ],
+
+  "contact": {
+    "form_email": "9shootphoto@gmail.com"
+  }
+}

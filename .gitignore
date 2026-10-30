@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+data/token.json
+data/bookings.json
+data/uploads/
+data/*.tmp
+.DS_Store
+*.log

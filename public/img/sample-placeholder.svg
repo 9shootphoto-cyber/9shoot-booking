@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0eeea"/>
+      <stop offset="100%" stop-color="#e2e0dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <g transform="translate(400 470)">
+    <rect x="-42" y="-42" width="84" height="84" fill="none" stroke="#b5b5b5" stroke-width="3"/>
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#b5b5b5" stroke-width="3"/>
+    <circle cx="0" cy="0" r="7" fill="#e60012"/>
+  </g>
+  <text x="400" y="580" text-anchor="middle"
+        font-family="Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="600"
+        fill="#8a8a8a" letter-spacing="6">9SHOOT</text>
+  <text x="400" y="616" text-anchor="middle"
+        font-family="Helvetica Neue, Arial, sans-serif" font-size="13"
+        fill="#b5b5b5" letter-spacing="3">SAMPLE IMAGE</text>
+</svg>
